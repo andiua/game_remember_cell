@@ -1,4 +1,4 @@
-you can check my work by this link
+realisation on of the game from my work
 https://andiua.github.io/game_remember_cell/
 
 1. All code is structured
