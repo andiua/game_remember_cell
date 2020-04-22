@@ -1,4 +1,4 @@
-# ������, ������������
+# ignore archives
 *.7z
 *.dmg
 *.gz
@@ -8,12 +8,12 @@
 *.tar
 *.zip
 
-# ���� ������, ����
+# ignore logs
 *.log
 *.sql
 *.sqlite
 
-# ������ Node, ���� npm
+# ignore npm and vs_code
 node_modules/
-.vs_code/
+/.vscode/
 npm-debug.log
