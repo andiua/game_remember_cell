@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/style_game.css">
+
+
+</head>
+
+<body>
+	<div class="wrap" id="wrap"> <input type="text" name="your-name" class="name name_hidden" value="">
+		<div class="content">
+				<section class="game white">
+					<div class="game__decor">
+						<img src="img/game_money1.png" alt="PrizeMe money" class="game__decor-img1">
+						<img src="img/game_money2.png" alt="PrizeMe money" class="game__decor-img2">
+					</div>
+					<div class="container">
+						<div class="game__top">
+							<h2 class="game__title center">Та це ще не все! <br>
+								Ми підготували для Вас можливість виграти ще більше призів!</h2>
+						</div>
+						<div class="game__bg">
+							<div class="game__frame">
+								<div class="game__frame-text center">
+									<p class="bold"><span class="spanNameFN"></span>, <br>
+										у подяку за швидку відповідь отримайте Додаткову грошову винагороду – <br>
+									 <span class="nobr bigger attention">30 000,00 гривень!</span><sup>*</sup>
+									 </p>
+									<p class="smaller"> Запам’ятайте де знаходились 
+										ті клітинки, що тільки-но горіли 
+										та скоріше вкажіть на них!</p>
+								</div>
+								<div class="game__play">
+									<div class="game__play-text">
+										<p>
+											<span>ВСЬОГО СПРОБ </span><span class="big">3</span>
+										</p>
+										<p>
+											<span>ЗАЛИШИЛОСЬ СПРОБ </span><span class="big" id="tries">3</span>
+										</p>
+									</div>
+									<div class="game__play-field" id="game_field">
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<div id="game_loose"></div>
+									</div>
+								</div>
+								<button class="game__play-btn main_btn">ГРАТИ</button>
+							</div>
+						</div>
+					</div>
+					<div class="popUp_holder" id="game_popup">
+						<div class="game__popup">
+							<picture>
+								<!-- <source srcset="img/game_popup-desk.webp" media="(min-width: 768px)" type="image/webp"> -->
+								<source srcset="img/game_popup-desk.jpg" media="(min-width: 768px)">
+								<!-- <source srcset="img/game_popup.webp" type="image/webp"> -->
+								<img src="img/game_popup.jpg" alt="PrizeMe money">
+							</picture>
+							<div class="game__popup-text">
+								<p><span class="spanNameFN"></span>, <br> <span class="attention bigger">ВІТАЄМО!</span></p>
+								<p>ВИ ВИГРАЛИ <br class="d-md-none"> ДОДАТКОВІ <br><span class="nobr big attention">30 000,00 ГРИВЕНЬ!</span><sup class="attention">*</sup></p>
+								<button class="game__popup-btn main_btn">ЗАБРАТИ</button>
+							</div>
+						</div>
+					</div>
+				</section>
+			<!-- /.section-header -->
+
+		</div>
+		<!--content-->
+
+	</div>
+	<!--wrap-->
+	<footer></footer>
+
+	<script src="js/script_game_2020.js"></script>
+</body>

@@ -1,0 +1,31 @@
+@import 'variable';
+// Center
+@mixin block_center{
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+@mixin block_centerV{
+	top: 50%;
+	transform: translateY(-50%);
+}
+@mixin block_centerX{
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+//blocks
+@mixin border_block($border, $padding, $radius: 0 ){
+	border: $border;
+	box-sizing: border-box;
+	border-radius: $radius;
+	padding: $padding;
+}
+@mixin btn($border, $padding, $bgc:transparent, $radius: 0 ){
+	border: $border;
+	box-sizing: border-box;
+	border-radius: $radius;
+	padding: $padding;
+	background-color: $bgc;
+	cursor: pointer;
+}
